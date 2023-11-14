@@ -1,26 +1,11 @@
 ---
 title: "Dylan Hughes"
-image: headshot.jpg
+image: animated_picture.png
 about:
   template: jolla
   image-shape: round
-  image-width: 5cm
-  links:
-    - icon: github
-      text: GitHub
-      href: https://github.com/dmhhughes
-    - icon: linkedin
-      text: LinkedIn
-      href: www.linkedin.com/in/dylan-m-h-hughes
-    - icon: envelope
-      text: Email
-      href: dylanhughes9@live.com
+  image-width: 6cm
 ---
+**Welcome!** My name is Dylan Hughes and I am a Business Intelligence Developer within the Farm Credit System. I'm passionate about data visualization, UX/UI, and design systems. When I'm not working, I like to lift weights, enjoy anything by Tim Ferriss, and spend time outside with my girlfriend and our goldendoodle. 
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+This is my little slice of the internet to write about what I'm currently thinking, learning, and doing.
