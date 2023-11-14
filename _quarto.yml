@@ -12,12 +12,10 @@ website:
       - icon: github
         href: https://github.com/dmhhughes
       - icon: linkedin
-        href: www.linkedin.com/in/dylan-m-h-hughes
+        href: https://linkedin.com/in/dylan-m-h-hughes
       - icon: envelope
-        href: dylanhughes9@live.com
+        href: mailto:dylanhughes9@live.com
   favicon: favicon.png
-  execute:
-    freeze: auto
 
 format:
   html:
