@@ -1,5 +1,20 @@
 ---
-title: "dylanmhughes"
+title: "Dylan Hughes"
+image: headshot.jpg
+about:
+  template: jolla
+  image-shape: round
+  image-width: 5cm
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/dmhhughes
+    - icon: linkedin
+      text: LinkedIn
+      href: www.linkedin.com/in/dylan-m-h-hughes
+    - icon: envelope
+      text: Email
+      href: dylanhughes9@live.com
 ---
 
 This is a Quarto website.
