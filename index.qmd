@@ -6,6 +6,7 @@ about:
   image-shape: round
   image-width: 6cm
 ---
-**Welcome!** My name is Dylan Hughes and I am a Business Intelligence Developer within the Farm Credit System. I'm passionate about data visualization, UX/UI, and design systems. When I'm not working, I like to lift weights, enjoy anything by Tim Ferriss, and spend time outside with my fiance and our goldendoodle. 
+
+**Welcome!** My name is Dylan Hughes and I am a Business Intelligence Developer within the Farm Credit System. I'm passionate about data visualization, UX/UI, and design systems. When I'm not working, I like to lift weights, enjoy anything by Tim Ferriss, and spend time outside with my fiance and our goldendoodle.
 
 This is my little slice of the internet to write about what I'm currently thinking, learning, and doing.
