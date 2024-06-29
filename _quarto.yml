@@ -2,17 +2,25 @@ project:
   type: website
 
 website:
-  title: "dylanmhughes"
+  title: "Dylan Hughes"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - posts.qmd
-      - about.qmd
+    right:
+      - icon: github
+        href: https://github.com/dmhhughes
+      - icon: linkedin
+        href: https://linkedin.com/in/dylan-m-h-hughes
+      - icon: envelope
+        href: mailto:dylanhughes9@live.com
+  favicon: favicon.png
 
 format:
   html:
-    theme: Journal
+    theme: 
+        - mystyles.scss
     css: styles.css
     toc: true
 

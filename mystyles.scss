@@ -1,0 +1,26 @@
+/*--scss:defaults--*/
+
+// Colors
+$text: #090502;
+$background: #FEFDFB;
+$primary: #92b5b9;
+$secondary: #d9ccbd;
+$accent: #2924b7;
+
+
+// Base document colors
+
+$navbar-bg: $primary; // navbar
+$navbar-fg: $text; // navbar foreground elements
+$navbar-hl: $accent  ; // highlight color when hovering over navbar links
+$body-bg: $background; // page background 
+$body-color: $text; // page text 
+$footer-bg: $secondary; // footer 
+$link-color: $accent; // hyperlinks 
+
+// Inline code
+$code-bg: $background; // inline code background color
+$code-color: $primary; // inline code text color
+
+// Code blocks
+$code-block-bg: $secondary; // code block background color

@@ -1,0 +1,15 @@
+---
+title: "The Adventure Begins"
+description: "A brief overview of the goals for this site"
+author: "Dylan Hughes"
+date: "11/14/2023"
+image: thumbnail_image.png
+---
+
+I've spent a long time thinking about creating a personal website. The idea would bounce around in my mind quite often. Sometimes it would be at the forefront, other times it would be on the back burner. When the motivation and desire for a website prompted me to make more headway, I'd find ways to transfix myself on cosmetic items - colors, logos, layouts, etc. Finally, I was able to overcome these self imposed roadblocks and make a simple site that I believe will serve my needs.
+
+At the end of the day, I don't expect anyone to read what I end up publishing here. The real reason I'm creating this site is to hold myself accountable and to track my progress over time. The overarching goal for this site is to act as an outward facing journal, using the act of writing to refine my overall thinking.
+
+Initially, I plan to commit to two posts per month - the 1st and 15th. The focus of these posts will be on what I'm currently thinking, learning, and doing. I believe this provides me with ample flexibility to muse on a wide range of topics down to whatever depth I'm interested in.
+
+I look forward to building this practice and I'm excited to see where I go along the way!
