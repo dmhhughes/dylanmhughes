@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Dylan Hughes</title>
+<title>Dylan Hughes - Hey There! I’m Dylan</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,7 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./favicon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -68,7 +67,6 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -89,12 +87,16 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
-<span class="menu-text">Home</span></a>
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">ABOUT</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./posts.html"> 
-<span class="menu-text">Blog</span></a>
+    <a class="nav-link" href="./now.html"> 
+<span class="menu-text">NOW</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./projects.html"> 
+<span class="menu-text">PROJECTS</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -127,17 +129,51 @@ ul.task-list li input[type="checkbox"] {
     
 <!-- main -->
 <div class="quarto-about-jolla content">
-  <img src="animated_picture.png" class="about-image
-  round " style="height: 6cm; width: 6cm;">
  <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Dylan Hughes</h1>
+<h1 class="title">Hey There! I’m Dylan</h1>
 </div>
 <div class="quarto-title-meta">
   </div>
 </header><main class="content" id="quarto-document-content">
-<p><strong>Welcome!</strong> My name is Dylan Hughes and I am a Business Intelligence Developer within the Farm Credit System. I’m passionate about data visualization, UX/UI, and design systems. When I’m not working, I like to lift weights, enjoy anything by Tim Ferriss, and spend time outside with my fiance and our goldendoodle.</p>
-<p>This is my little slice of the internet to write about what I’m currently thinking, learning, and doing.</p>
+<div class="grid">
+<div class="g-col-12 g-col-md-4">
+<div id="card-first-color" class="card h-100">
+<div class="card-body d-flex flex-column">
+<p class="card-text">
+Learn about who I am and what I do
+</p>
+<div style="margin-top: auto;">
+<a href="./about.html" class="card-link heading-font">ABOUT</a>
+</div>
+</div>
+</div>
+</div>
+<div class="g-col-12 g-col-md-4">
+<div id="card-second-color" class="card h-100">
+<div class="card-body d-flex flex-column">
+<p class="card-text">
+Check out what I’m up to currently
+</p>
+<div style="margin-top: auto;">
+<a href="./now.html" class="card-link second-color-link heading-font">NOW</a>
+</div>
+</div>
+</div>
+</div>
+<div class="g-col-12 g-col-md-4">
+<div id="card-third-color" class="card h-100">
+<div class="card-body d-flex flex-column">
+<p class="card-text">
+Take a peek at my past projects
+</p>
+<div style="margin-top: auto;">
+<a href="./projects.html" class="card-link third-color-link heading-font">PROJECTS</a>
+</div>
+</div>
+</div>
+</div>
+</div>
 
 
 </main>  
@@ -231,6 +267,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -546,6 +587,19 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>Made with <a href="https://quarto.org/">Quarto</a></p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
 
 
 

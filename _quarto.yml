@@ -3,11 +3,16 @@ project:
 
 website:
   title: "Dylan Hughes"
+  page-footer: |
+    Made with [Quarto](https://quarto.org/)
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - posts.qmd
+      - href: about.qmd
+        text: ABOUT
+      - href: now.qmd
+        text: NOW
+      - href: projects.qmd
+        text: PROJECTS
     right:
       - icon: github
         href: https://github.com/dmhhughes
@@ -15,14 +20,11 @@ website:
         href: https://linkedin.com/in/dylan-m-h-hughes
       - icon: envelope
         href: mailto:dylanhughes9@live.com
-  favicon: favicon.png
 
 format:
   html:
     theme: 
         - mystyles.scss
-    css: styles.css
     toc: true
-
-editor: visual
+    link-external-newwindow: true
 

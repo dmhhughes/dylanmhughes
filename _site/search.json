@@ -1,72 +1,58 @@
 [
   {
-    "objectID": "posts.html",
-    "href": "posts.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Creating a Clusted Column Chart in R\n\n\nOh Excel, how I took you for granted\n\n\n\nDylan Hughes\n\n\nNov 15, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Adventure Begins\n\n\nA brief overview of the goals for this site\n\n\n\nDylan Hughes\n\n\nNov 14, 2023\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/2023_11_14_the_adventure_begins/index.html",
-    "href": "posts/2023_11_14_the_adventure_begins/index.html",
-    "title": "The Adventure Begins",
-    "section": "",
-    "text": "I’ve spent a long time thinking about creating a personal website. The idea would bounce around in my mind quite often. Sometimes it would be at the forefront, other times it would be on the back burner. When the motivation and desire for a website prompted me to make more headway, I’d find ways to transfix myself on cosmetic items - colors, logos, layouts, etc. Finally, I was able to overcome these self imposed roadblocks and make a simple site that I believe will serve my needs.\nAt the end of the day, I don’t expect anyone to read what I end up publishing here. The real reason I’m creating this site is to hold myself accountable and to track my progress over time. The overarching goal for this site is to act as an outward facing journal, using the act of writing to refine my overall thinking.\nInitially, I plan to commit to two posts per month - the 1st and 15th. The focus of these posts will be on what I’m currently thinking, learning, and doing. I believe this provides me with ample flexibility to muse on a wide range of topics down to whatever depth I’m interested in.\nI look forward to building this practice and I’m excited to see where I go along the way!"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Dylan Hughes",
+    "title": "Hey There! I’m Dylan",
     "section": "",
-    "text": "Welcome! My name is Dylan Hughes and I am a Business Intelligence Developer within the Farm Credit System. I’m passionate about data visualization, UX/UI, and design systems. When I’m not working, I like to lift weights, enjoy anything by Tim Ferriss, and spend time outside with my fiance and our goldendoodle.\nThis is my little slice of the internet to write about what I’m currently thinking, learning, and doing."
+    "text": "Learn about who I am and what I do\n\n\nABOUT\n\n\n\n\n\n\n\n\nCheck out what I’m up to currently\n\n\nNOW\n\n\n\n\n\n\n\n\nTake a peek at my past projects\n\n\nPROJECTS"
   },
   {
-    "objectID": "posts/2023_11_15_clustered_columns_R/index.html",
-    "href": "posts/2023_11_15_clustered_columns_R/index.html",
-    "title": "Creating a Clusted Column Chart in R",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "A Little About Me",
     "section": "",
-    "text": "Recently I was asked to pull together an analysis comparing two sets of ratings. These ratings came in two flavors. The first was based on both qualitative and quantitative factors and ultimately was determined by a human. The second was based only on quantitative factors and was evaluated and assigned by a software program. The objective of the analysis was to determine whether ratings were more conservative when assigned by an individual relative to the automated rating.\nI was tempted to use Excel to quickly run through the numbers. But, being that I’m currently working my way through R For Data Science (2e), I wanted to use tidyr and ggplot to get my hands dirty with a real life scenario. No hiding behind a simple point and click interface for me."
+    "text": "::: &lt;hr style=’background-color:#0082E2;border-width:0;color:#000000;height:2px;&gt; ::: I’m a data professional working for Farm Credit Services of America. I live in Fargo, North Dakota with my soon-to-be wife and our goldendoodle, Ellie. I enjoy coffee, taking our dog for walks, working out, and listening to podcasts.\nI attended the University of North Dakota and obtained a Bachelors of Accountancy and a Bachelors of Business Adminstration, specializing in Economics.\nI began my professional life in finance before finding a career in data. These days, I work primarily with open-source technologies. I prefer to program using the R programming language and use Quarto as my means of communication.\nI have extensive analytics experience, having developed an enterprise reporting framework from scratch, creating a Center of Excellence to expand the impact of analytics, and building a loan decision engine which handles over $3 billion in loan commitments annually."
   },
   {
-    "objectID": "posts/2023_11_15_clustered_columns_R/index.html#the-catalyst",
-    "href": "posts/2023_11_15_clustered_columns_R/index.html#the-catalyst",
-    "title": "Creating a Clusted Column Chart in R",
+    "objectID": "now.html",
+    "href": "now.html",
+    "title": "What I’m Up to Now",
     "section": "",
-    "text": "Recently I was asked to pull together an analysis comparing two sets of ratings. These ratings came in two flavors. The first was based on both qualitative and quantitative factors and ultimately was determined by a human. The second was based only on quantitative factors and was evaluated and assigned by a software program. The objective of the analysis was to determine whether ratings were more conservative when assigned by an individual relative to the automated rating.\nI was tempted to use Excel to quickly run through the numbers. But, being that I’m currently working my way through R For Data Science (2e), I wanted to use tidyr and ggplot to get my hands dirty with a real life scenario. No hiding behind a simple point and click interface for me."
+    "text": "Last Updated: January 2nd, 2024\nAs suggested by Derek Sivers, here is a list of the things I’m currently doing or thinking about."
   },
   {
-    "objectID": "posts/2023_11_15_clustered_columns_R/index.html#getting-started",
-    "href": "posts/2023_11_15_clustered_columns_R/index.html#getting-started",
-    "title": "Creating a Clusted Column Chart in R",
-    "section": "Getting Started",
-    "text": "Getting Started\nFor the sake of this example, let’s say it’s the end of the year and these ratings are associated with employee reviews. The first, more manual rating, is assigned by an employee’s manager. The manager reviews both the work completed over the year as well as the employee’s attitude, teamwork, and professional development and assigns a rating on a scale of 1 to 5, with 5 being the best. The second rating is provided by software the company uses to track work. The program simply reviews the work submitted by the employee and generates a rating, again on a 1 to 5 scale.\nOur example company has 4 employees. Their names and ratings are shown in the table below:\n\n\n\nEmployee\nRating (Manual)\nRating (Auto)\n\n\n\n\nEllie\n5\n3\n\n\nSam\n4\n1\n\n\nRemmy\n4\n2\n\n\nBrandy\n5\n4\n\n\n\nThe goal of this analysis is to determine if there is a conservative bias when assigning ratings manually. But, before we get to interpreting the data, we should pause and consider the optimal data visualization to use to demonstrate our findings."
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "A Glimpse at Past Projects",
+    "section": "",
+    "text": "flashcrash A Shiny app that retrieves a random chart from the Animal Spirits podcast."
   },
   {
-    "objectID": "posts/2023_11_15_clustered_columns_R/index.html#data-viz-first-design",
-    "href": "posts/2023_11_15_clustered_columns_R/index.html#data-viz-first-design",
-    "title": "Creating a Clusted Column Chart in R",
-    "section": "Data-Viz-First Design",
-    "text": "Data-Viz-First Design\nGiven that we have a common categorical variable, our rating scale (1 to 5), and that we want to evaluate the number of observations in each category based on the method of rating, a Clustered Column chart will likely be the most straightforward tool for presenting the data. Ideally, we will want the rating scale to be displayed on the X-axis, the count of observations on the Y-axis, and we will want separate columns for each flavor of rating (manual or auto).\nWe certainly could use Excel to create this chart. And honestly, using Excel would be the easiest option. All we would need to do is highlight our data, go to the “Insert” tab on the ribbon, and in the Charts group, choose “Clustered Column Chart.” Tough to argue with the simplicity of that.\nBut, you never grow if you never push yourself outside of your comfort zone. So, let’s try and tackle this using R."
+    "objectID": "now.html#personal-website",
+    "href": "now.html#personal-website",
+    "title": "What I’m Up to Now",
+    "section": "Personal Website",
+    "text": "Personal Website\nIt’s been a while since I’ve spent time on refining my personal website. I’m planning to make some additional styling changes and site updates over the coming weeks."
   },
   {
-    "objectID": "posts/2023_11_15_clustered_columns_R/index.html#data-transformation",
-    "href": "posts/2023_11_15_clustered_columns_R/index.html#data-transformation",
-    "title": "Creating a Clusted Column Chart in R",
-    "section": "Data Transformation",
-    "text": "Data Transformation\nFirst we need to consider the format of our data. Currently, we have a 4 x 3 table with two separate variables containing the data we would like to compare. We know that we need to somehow group the competing ratings together, but we don’t exactly know how to take two variables and turn them into one. This need leads us to the pivot_longer() function.\nAccording to the vignette(\"pivot\"), pivot_longer() increases the number of rows and decrease the number of columns in a dataset. By using pivot_longer(), we are able to re-purpose the individual rating columns in our table, condense them into a single column, and expand the number of rows to still retain the respective ratings.\nTo demonstrate this change visually, take a look at the tables below:\n\n\nCode\nlibrary(tidyverse)\nlibrary(knitr)\n\ndf &lt;- tribble (\n  ~employee, ~rating_manual, ~rating_auto,\n  \"Ellie\", 5, 3,\n  \"Sam\", 4, 1,\n  \"Remmy\", 4, 2,\n  \"Brandy\", 5, 4\n)\n\nkable(df)\n\n\n\n\n\nemployee\nrating_manual\nrating_auto\n\n\n\n\nEllie\n5\n3\n\n\nSam\n4\n1\n\n\nRemmy\n4\n2\n\n\nBrandy\n5\n4\n\n\n\n\n\nCode\ndf_longer &lt;- df |&gt; \n  pivot_longer(\n    cols = !employee, \n    names_to = \"rating\", \n    values_to = \"value\"\n  )\n\nkable(df_longer)\n\n\n\n\n\nemployee\nrating\nvalue\n\n\n\n\nEllie\nrating_manual\n5\n\n\nEllie\nrating_auto\n3\n\n\nSam\nrating_manual\n4\n\n\nSam\nrating_auto\n1\n\n\nRemmy\nrating_manual\n4\n\n\nRemmy\nrating_auto\n2\n\n\nBrandy\nrating_manual\n5\n\n\nBrandy\nrating_auto\n4\n\n\n\n\n\nThis is great! Now we have a single column for ratings and for values. This makes it much easier to map to the respective aesthetics of ggplot. Let’s give it a go."
+    "objectID": "now.html#whoop-r-package",
+    "href": "now.html#whoop-r-package",
+    "title": "What I’m Up to Now",
+    "section": "Whoop R Package",
+    "text": "Whoop R Package\nI’m toying around with the idea of creating an R package that acts as a wrapper to the Whoop API. I’m a Whoop user and would like a way to programmatically pull my personal data for analysis purposes and to include in my daily brief, which leads me to…"
   },
   {
-    "objectID": "posts/2023_11_15_clustered_columns_R/index.html#data-visualization",
-    "href": "posts/2023_11_15_clustered_columns_R/index.html#data-visualization",
-    "title": "Creating a Clusted Column Chart in R",
-    "section": "Data Visualization",
-    "text": "Data Visualization\n\nlibrary(ggplot2)\n\nggplot2::ggplot(df_longer, aes(x = value, fill = rating)) +\n  geom_bar(position = \"dodge\")\n\n\n\n\nIt’s tough to draw a definitive conclusion from this chart but it appears that the rating assigned by the manager may be more favorable than the rating assigned by the software. Regardless, it was a fun exercise in thinking through the proper data format for those oh-so-often occurring Clustered Column charts in Excel."
+    "objectID": "now.html#daily-brief",
+    "href": "now.html#daily-brief",
+    "title": "What I’m Up to Now",
+    "section": "Daily Brief",
+    "text": "Daily Brief\nI want to create a daily brief that pulls together my most commonly used data sources (weather, Whoop, etc.) in a daily Quarto document."
   },
   {
-    "objectID": "posts/2023_11_15_clustered_columns_R/index.html#closing-thoughts",
-    "href": "posts/2023_11_15_clustered_columns_R/index.html#closing-thoughts",
-    "title": "Creating a Clusted Column Chart in R",
-    "section": "Closing Thoughts",
-    "text": "Closing Thoughts\nThis was a fun opportunity to wrestle with both a data transformation and data visualization problem. For an R veteran, this would take no time at all. But for someone like me who is working more and more on developing my R skills, it was an interesting and real life opportunity to conduct some analysis and add some tools to the R tool belt along the way."
+    "objectID": "now.html#archer-transcription-shiny-app",
+    "href": "now.html#archer-transcription-shiny-app",
+    "title": "What I’m Up to Now",
+    "section": "Archer Transcription Shiny App",
+    "text": "Archer Transcription Shiny App\nI want to create a Shiny app to make transcribing the FX show Archer a bit easier. Ideally, I’d like to transcribe the entire show and then create an R package with the data in a tidy format."
   }
 ]
