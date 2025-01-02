@@ -3,6 +3,9 @@ project:
 
 website:
   title: "Dylan Hughes"
+  site-url: https://dylanmhughes.com
+  description: About me, my work, and what I'm up to
+  favicon: assets/favicon.png
   page-footer: |
     Made with [Quarto](https://quarto.org/)
   navbar:
@@ -26,5 +29,4 @@ format:
     theme: 
         - mystyles.scss
     toc: true
-    link-external-newwindow: true
 
