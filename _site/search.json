@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Hey There! I’m Dylan",
-    "section": "",
-    "text": "Learn about who I am and what I do\n\n\nABOUT\n\n\n\n\n\n\n\n\nCheck out what I’m up to currently\n\n\nNOW\n\n\n\n\n\n\n\n\nTake a peek at my past projects\n\n\nPROJECTS"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "A Little About Me",
@@ -14,18 +7,18 @@
     "text": "I’m a data professional working for Farm Credit Services of America. I live in Fargo, North Dakota with my soon-to-be wife and our goldendoodle, Ellie. I enjoy coffee, taking our dog for walks, working out, and listening to podcasts.\nI attended the University of North Dakota and obtained a Bachelors of Accountancy and a Bachelors of Business Adminstration, specializing in Economics.\nI began my professional life in finance before finding a career in data. These days, I work primarily with open-source technologies. I prefer to program using the R programming language and use Quarto as my means of communication.\nI have extensive analytics experience, having developed an enterprise reporting framework from scratch, creating a Center of Excellence to expand the impact of analytics, and building a loan decision engine which handles over $3 billion in loan commitments annually."
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hey There! I’m Dylan",
+    "section": "",
+    "text": "Learn about who I am and what I do\n\n\nABOUT\n\n\n\n\n\n\n\n\nCheck out what I’m up to currently\n\n\nNOW\n\n\n\n\n\n\n\n\nTake a peek at my past projects\n\n\nPROJECTS"
+  },
+  {
     "objectID": "now.html",
     "href": "now.html",
     "title": "What I’m Up to Now",
     "section": "",
     "text": "Last Updated: January 2nd, 2024\nAs suggested by Derek Sivers, here is a list of the things I’m currently doing or thinking about."
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "A Glimpse at Past Projects",
-    "section": "",
-    "text": "flashcrash A Shiny app that retrieves a random chart from the Animal Spirits podcast."
   },
   {
     "objectID": "now.html#personal-website",
@@ -54,5 +47,12 @@
     "title": "What I’m Up to Now",
     "section": "Archer Transcription Shiny App",
     "text": "Archer Transcription Shiny App\nI want to create a Shiny app to make transcribing the FX show Archer a bit easier. Ideally, I’d like to transcribe the entire show and then create an R package with the data in a tidy format."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "A Glimpse at Past Projects",
+    "section": "",
+    "text": "flashcrash A Shiny app that retrieves a random chart from the Animal Spirits podcast."
   }
 ]

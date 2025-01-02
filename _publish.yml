@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: 64e4c440-df37-4c43-a52e-3805d6292da4
+      url: 'https://idyllic-jalebi-cb8e6d.netlify.app'
