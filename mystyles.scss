@@ -1,26 +1,169 @@
 /*--scss:defaults--*/
 
-// Colors
-$text: #090502;
-$background: #FEFDFB;
-$primary: #92b5b9;
-$secondary: #d9ccbd;
-$accent: #2924b7;
+// Quartz 5.3.3
+// Bootswatch
 
+$theme: "quartz" !default;
 
-// Base document colors
+/* Import normal Roboto font for body */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-$navbar-bg: $primary; // navbar
-$navbar-fg: $text; // navbar foreground elements
-$navbar-hl: $accent  ; // highlight color when hovering over navbar links
-$body-bg: $background; // page background 
-$body-color: $text; // page text 
-$footer-bg: $secondary; // footer 
-$link-color: $accent; // hyperlinks 
+/* Import bold Roboto font for title */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
-// Inline code
-$code-bg: $background; // inline code background color
-$code-color: $primary; // inline code text color
+$font-family-base: "Roboto";
 
-// Code blocks
-$code-block-bg: $secondary; // code block background color
+//
+// Color system
+//
+
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9e9e8 !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+$blue:    #3a8fd9 !default;
+$indigo:  #6610f2 !default;
+$purple:  #686dc3 !default;
+$pink:    #e83283 !default;
+$red:     #fc346f !default;
+$orange:  #fd7e14 !default;
+$yellow:  #ffc107 !default;
+$green:   #41d7a7 !default;
+$teal:    #528fb3 !default;
+$cyan:    #39cbfb !default;
+$medium1: #0082E2 !default;
+$medium2: #F22439 !default;
+$medium3: #EFB436 !default;
+
+$primary:       $medium1 !default;
+$secondary:     $gray-500 !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $orange !default;
+$light:         $gray-100 !default;
+$dark:          $gray-900 !default;
+
+$second-color: $medium2;
+$third-color: $medium3;
+
+// Body
+
+$body-bg:       $light;
+$body-color:    $dark;
+$navbar-bg:     $body-bg;
+$navbar-fg:     $body-color;
+
+/*-- scss:rules --*/
+
+// color classes
+.primary {
+  color: $medium1;
+}
+
+.second-color {
+  color: $second-color;
+}
+
+.third-color {
+  color: $third-color;
+}
+
+// links
+a {
+  color: $body-color;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  //text-underline-offset: .1rem;
+  //text-underline-position: under;
+}
+
+a:hover {
+  color: $primary;
+  text-decoration-color: $primary;
+}
+
+.toc-actions a {
+  text-decoration: none !important;  
+  border-bottom: 0;
+}
+
+.toc-actions a:hover {
+  color: $primary;
+}
+
+div.tippy-content a:hover {
+  text-decoration-color: $primary;
+}
+
+// navbar
+.navbar-title {
+  font-size: $font-size-base * 1.75;
+}
+
+// for cards on home page
+#card-first-color {
+  background-color: $body-bg;
+  border: 4px solid $primary;
+  border-radius: 5px; 
+}
+
+#card-second-color {
+  background-color: $body-bg;
+  border: 4px solid $second-color;
+  border-radius: 5px; 
+}
+
+#card-third-color {
+  background-color: $body-bg;
+  border: 4px solid $third-color;
+  border-radius: 5px; 
+}
+
+.card-link {
+    background-color: $primary;
+    color: $body-bg;
+    border: 4px solid $primary;
+    border-color: $primary;
+    padding: 5px .5rem 5px .5rem !important;
+    margin: 0;
+    border-radius: 5px; 
+    display: inline-block;
+    text-decoration: none;  
+    font-size: $h5-font-size;
+}
+
+.card-link:hover {
+  background-color: $body-bg;
+  color: $primary;
+}
+
+.second-color-link{
+    background-color: $second-color;
+    border-color: $second-color;
+    color: $body-bg;
+}
+
+.second-color-link:hover {
+  color: $second-color;
+  border-color: $second-color;
+}
+
+.third-color-link{
+    background-color: $third-color;
+    border-color: $third-color;
+    color: $body-bg;
+}
+
+.third-color-link:hover {
+  color: $third-color;
+  border-color: $third-color;
+}
