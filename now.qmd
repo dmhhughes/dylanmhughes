@@ -2,18 +2,9 @@
 title: "What I'm Up to Now"
 ---
 
-Last Updated: January 2nd, 2024
+Last Updated: February 10th, 2025
 
 As suggested by [Derek Sivers](https://sive.rs/now), here is a list of the things I'm currently doing or thinking about.
 
-## Personal Website
-It's been a while since I've spent time on refining my personal website. I'm planning to make some additional styling changes and site updates over the coming weeks.
-
-## Whoop R Package
-I'm toying around with the idea of creating an R package that acts as a wrapper to the Whoop API. I'm a Whoop user and would like a way to programmatically pull my personal data for analysis purposes and to include in my daily brief, which leads me to...
-
-## Daily Brief
-I want to create a daily brief that pulls together my most commonly used data sources (weather, Whoop, etc.) in a daily Quarto document.
-
-## Archer Transcription Shiny App
-I want to create a Shiny app to make transcribing the FX show Archer a bit easier. Ideally, I'd like to transcribe the entire show and then create an R package with the data in a tidy format.
+## NASA Astronomy Picture of the Day (APOD)
+NASA has an open API that exposes APOD imagery and other metadata for use in other programs. There is an R package that wraps the API, but it may be fun to explore creating a package from scratch and creating a shiny app to go along with it.
