@@ -6,5 +6,15 @@ Last Updated: February 10th, 2025
 
 As suggested by [Derek Sivers](https://sive.rs/now), here is a list of the things I'm currently doing or thinking about.
 
-## NASA Astronomy Picture of the Day (APOD)
-NASA has an open API that exposes APOD imagery and other metadata for use in other programs. There is an R package that wraps the API, but it may be fun to explore creating a package from scratch and creating a shiny app to go along with it.
+## Tao te Tim
+Since reading [The Four Hour Workweek](https://tim.blog/tim-ferriss-books/#the-4-hour-workweek) in college, I've been a huge fan of Tim Ferriss. His podcast, [The Tim Ferriss Show](https://tim.blog/podcast/) is a mainstay for me and is a way to expose myself to new ideas and new ways of thinking. 
+
+Foe each episode that Tim produces, he includes a collection of links to different resources that come up during his conversation with his guest. With Tim's stated goal of interviewing world-class performers, these links are an opportune way to gain even more exposure to new domains.
+
+My goal is to programmatically expose myself to these show links by scraping the data from each episode and creating a mechanism to text a new link to myself each morning. While some links may be misses, others may show me something completely new and open up a new area of interest.
+
+## Studying Bayesian Statistics
+I recently picked up a copy of [Bayesian Statistics the Fun Way](https://nostarch.com/learnbayes) by Will Kurt. I've had some elementary exposure to Bayesian statistics but I'm excited to return to the fundamentals and refresh my knowledge on the subject. And who can complain about learning statistics when Star Wars and LEGO will be part of the learning material?
+
+## Writing More Python
+In my job, I tend to be a jack of all trades. Depending on the day, I could be slinging some R code, reviewing a data model, writing technical architecture plans, or troubleshooting a gateway connection. Recently, I've come across several instances where Python was the best tool for the job and it has been so fun to write! Not that all nails require a Python hammer, but I'm on the lookout for more opportunities to blend my Python knowledge into day-to-day work.
