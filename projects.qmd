@@ -5,3 +5,4 @@ title: "A Glimpse at Past Projects"
 - [`flashcrash`](https://dylanhughes.shinyapps.io/flashcrash) A Shiny app that retrieves a random chart from the [Animal
 Spirits](https://podcasts.thecompoundnews.com/show/animalspirits/)
 podcast.
+- [Tao of Tim](/creations/tao_of_tim.html) Automating exposure to top-performers one Telegram message at a time.
