@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://dylanmhughes.com/about.html</loc>
-    <lastmod>2025-01-02T16:14:53.059Z</lastmod>
+    <loc>https://dylanmhughes.com/creations/tao_of_tim.html</loc>
+    <lastmod>2025-04-29T00:36:47.849Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dylanmhughes.com/projects.html</loc>
+    <lastmod>2025-04-29T00:42:22.265Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dylanmhughes.com/now.html</loc>
+    <lastmod>2025-07-15T00:51:34.754Z</lastmod>
   </url>
   <url>
     <loc>https://dylanmhughes.com/index.html</loc>
     <lastmod>2025-01-02T02:18:48.148Z</lastmod>
   </url>
   <url>
-    <loc>https://dylanmhughes.com/now.html</loc>
-    <lastmod>2025-04-29T00:39:28.519Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dylanmhughes.com/projects.html</loc>
-    <lastmod>2025-04-29T00:39:31.796Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dylanmhughes.com/creations/tao_te_tim.html</loc>
-    <lastmod>2025-04-29T00:36:47.849Z</lastmod>
+    <loc>https://dylanmhughes.com/about.html</loc>
+    <lastmod>2025-07-15T00:39:52.665Z</lastmod>
   </url>
 </urlset>
