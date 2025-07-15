@@ -2,12 +2,12 @@
 title: "What I'm Up to Now"
 ---
 
-Last Updated: April 28th, 2025
+Last Updated: July 14th, 2025
 
 As suggested by [Derek Sivers](https://sive.rs/now), here is a list of the things I'm currently doing or thinking about.
 
-## Tao of Tim
-The [Tao of Tim](https://t.me/tao_te_tim) is now a Telegram channel! Feel free to subscribe and get a daily show note from The Tim Ferriss Show. Check out [this article](/creations/tao_of_tim.html) for details on how I pieced the project together.
+## MLB Data
+My wife and I recently watched [The Clubhouse](https://www.netflix.com/title/81562408) on Netflix and we were blown away by the effort that goes into the 162-game season. One of the questions that came to our minds when watching was, how has the percentage of players from different countries change over time? It's a straightforward data question but will be fun to explore!
 
-## Learning Polars
-Keeping with my trend of writing more Python, I've recently started to dig into the [Polars](https://pola.rs/) library. The ability to use the power of Python with a syntax that is very close to R has been a great way to leverage existing knowledge while learning something new. Plus, it's hard to complain about the more user-friendly method names when compared to [Pandas](https://pandas.pydata.org/).
+## Tinkering with Marimo
+Continuing with writing more Python, I've recently been tinkering with [Marimo notebooks](https://marimo.io/). The reproducible execution is interesting and the dataframe viewer seems fairly beneficial as well. I plan to use Marimo to explore the MLB data question above.

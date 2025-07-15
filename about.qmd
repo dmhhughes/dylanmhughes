@@ -2,7 +2,7 @@
 title: "A Little About Me"
 ---
 
-I'm a data professional working for [Farm Credit Services of America](https:///www.fcsamerica.com/). I live in [Fargo, North Dakota](https://www.fargomoorhead.org/) with my soon-to-be wife, Lindsey, and our goldendoodle, Ellie. I enjoy coffee, taking our dog for walks, working out, and listening to podcasts.
+I'm a data professional working for [Farm Credit Services of America](https:///www.fcsamerica.com/). I live in [Fargo, North Dakota](https://www.fargomoorhead.org/) with my wife, Lindsey, and our goldendoodle, Ellie. I enjoy coffee, taking our dog for walks, working out, and listening to podcasts.
 
 I attended the [University of North Dakota](https://und.edu/about/index.html) and obtained a [Bachelors of Accountancy](https://und.edu/programs/accountancy-bacc/requirements.html) and a [Bachelors of Business Adminstration](https://und.edu/programs/business-economics-bba/requirements.html), specializing in Economics.
 
