@@ -1,0 +1,30 @@
+{
+    "name": "Personal Website",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+
+    "features": {
+
+        "ghcr.io/rocker-org/devcontainer-features/quarto-cli:1": {},
+        "ghcr.io/rocker-org/devcontainer-features/r-apt:latest": {},
+        "ghcr.io/rocker-org/devcontainer-features/r-packages:1": {
+            "packages": "dplyr, ggplot2, languageserver, readr, rmarkdown, tidyr ",
+            "installSystemRequirements": true
+        }
+    },
+
+    "overrideFeatureInstallOrder": [
+        "ghcr.io/rocker-org/devcontainer-features/r-apt"
+    ],
+
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "quarto.quarto",
+                "RDebugger.r-debugger",
+                "REditorSupport.r"
+            ]
+        }
+    }
+}
