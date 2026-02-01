@@ -18,7 +18,7 @@
     "href": "now.html",
     "title": "What I’m Up to Now",
     "section": "",
-    "text": "Last Updated: July 14th, 2025\nAs suggested by Derek Sivers, here is a list of the things I’m currently doing or thinking about."
+    "text": "Last Updated: February 1st, 2026\nAs suggested by Derek Sivers, here is a list of the things I’m currently doing or thinking about."
   },
   {
     "objectID": "now.html#tao-of-tim",
@@ -46,7 +46,7 @@
     "href": "about.html",
     "title": "A Little About Me",
     "section": "",
-    "text": "I’m a data professional working for Farm Credit Services of America. I live in Fargo, North Dakota with my wife, Lindsey, and our goldendoodle, Ellie. I enjoy coffee, taking our dog for walks, working out, and listening to podcasts.\nI attended the University of North Dakota and obtained a Bachelors of Accountancy and a Bachelors of Business Adminstration, specializing in Economics.\nI began my professional life in finance before finding a career in data. These days, I work primarily with open-source technologies. I prefer to program using the R programming language and use Quarto as my means of communication.\nI have extensive analytics experience, having developed an enterprise reporting framework from scratch, creating a Center of Excellence to expand the impact of analytics, and building a loan decision engine which handles over $3 billion in loan commitments annually."
+    "text": "I’m a data scientist at Ketchbrook Analytics. I live in Fargo, North Dakota with my wife, Lindsey, and our goldendoodle, Ellie. I enjoy coffee, taking our dog for walks, working out, and listening to podcasts.\nI attended the University of North Dakota and obtained a Bachelors of Accountancy and a Bachelors of Business Adminstration, specializing in Economics.\nI began my professional life in finance before finding a career in data. These days, I primarily work with open-source technologies including R and Python."
   },
   {
     "objectID": "now.html#mlb-data",
@@ -61,5 +61,12 @@
     "title": "What I’m Up to Now",
     "section": "Tinkering with Marimo",
     "text": "Tinkering with Marimo\nContinuing with writing more Python, I’ve recently been tinkering with Marimo notebooks. The reproducible execution is interesting and the dataframe viewer seems fairly beneficial as well. I plan to use Marimo to explore the MLB data question above."
+  },
+  {
+    "objectID": "now.html#claude-code",
+    "href": "now.html#claude-code",
+    "title": "What I’m Up to Now",
+    "section": "Claude Code",
+    "text": "Claude Code\nI am spending more time integrating Claude Code into my day-to-day workflow. Finding opportunities to effectively delegate tasks to Claude Code has been quite fun, and it forces me to evaluate how best to approach certain work items."
   }
 ]

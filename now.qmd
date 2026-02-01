@@ -2,12 +2,9 @@
 title: "What I'm Up to Now"
 ---
 
-Last Updated: July 14th, 2025
+Last Updated: February 1st, 2026
 
 As suggested by [Derek Sivers](https://sive.rs/now), here is a list of the things I'm currently doing or thinking about.
 
-## MLB Data
-My wife and I recently watched [The Clubhouse](https://www.netflix.com/title/81562408) on Netflix and we were blown away by the effort that goes into the 162-game season. One of the questions that came to our minds when watching was, how has the percentage of players from different countries change over time? It's a straightforward data question but will be fun to explore!
-
-## Tinkering with Marimo
-Continuing with writing more Python, I've recently been tinkering with [Marimo notebooks](https://marimo.io/). The reproducible execution is interesting and the dataframe viewer seems fairly beneficial as well. I plan to use Marimo to explore the MLB data question above.
+## Claude Code
+I am spending more time integrating [Claude Code](https://claude.com/product/claude-code) into my day-to-day workflow. Finding opportunities to effectively delegate tasks to Claude Code has been quite fun, and it forces me to evaluate how best to approach certain work items.
