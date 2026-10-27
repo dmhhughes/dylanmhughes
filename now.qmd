@@ -2,9 +2,14 @@
 title: "What I'm Up to Now"
 ---
 
-Last Updated: February 1st, 2026
+Last Updated: October 26th, 2026
 
 As suggested by [Derek Sivers](https://sive.rs/now), here is a list of the things I'm currently doing or thinking about.
 
-## Claude Code
-I am spending more time integrating [Claude Code](https://claude.com/product/claude-code) into my day-to-day workflow. Finding opportunities to effectively delegate tasks to Claude Code has been quite fun, and it forces me to evaluate how best to approach certain work items.
+## The 4-Hour Workweek
+
+I've just started my annual re-read of [The 4-Hour Workweek](https://tim.blog/tim-ferriss-books/#the-4-hour-workweek). As one of my all-time favorite books, it is a great reminder of the simple systems that can improve our lives and bring us closer to what matters most.
+
+## Data Science at the Command Line
+
+While I am still working with [Claude Code](https://claude.com/product/claude-code) on a daily basis, I have been getting a tremendous amount of joy writing code by hand, especially in the terminal. I recently stumbled across [Data Science at the Command Line](https://jeroenjanssens.com/dsatcl/) and have started to work my way through it to learn some best practices and pick up some additional tips and tricks along the way.
